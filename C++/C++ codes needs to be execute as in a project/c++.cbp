@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,7 +34,29 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/belly.h" />
+		<Unit filename="include/birthday.h" />
+		<Unit filename="include/daughter.h" />
+		<Unit filename="include/decon.h" />
+		<Unit filename="include/father.h" />
+		<Unit filename="include/member.h" />
+		<Unit filename="include/miss.h" />
+		<Unit filename="include/mother.h" />
+		<Unit filename="include/opra.h" />
+		<Unit filename="include/person.h" />
+		<Unit filename="include/son.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/belly.cpp" />
+		<Unit filename="src/birthday.cpp" />
+		<Unit filename="src/daughter.cpp" />
+		<Unit filename="src/decon.cpp" />
+		<Unit filename="src/father.cpp" />
+		<Unit filename="src/member.cpp" />
+		<Unit filename="src/miss.cpp" />
+		<Unit filename="src/mother.cpp" />
+		<Unit filename="src/opra.cpp" />
+		<Unit filename="src/person.cpp" />
+		<Unit filename="src/son.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

@@ -1,5 +1,101 @@
 # depslib dependency file v1.0
-1597506937 source:e:\github\c++\c++\main.cpp
+1601042329 source:e:\github\c++\c++\main.cpp
 	<iostream>
+
+1598539907 source:e:\github\c++\c++\src\yuno.cpp
+	"yuno.h"
+	<iostream>
+
+1598539919 e:\github\c++\c++\include\yuno.h
+
+1598622193 source:e:\github\c++\c++\src\decon.cpp
+	"decon.h"
+	<iostream>
+
+1598622191 e:\github\c++\c++\include\decon.h
+
+1598704253 source:e:\github\c++\c++\src\belly.cpp
+	<iostream>
+	"belly.h"
+
+1598704251 e:\github\c++\c++\include\belly.h
+
+1598705121 e:\github\c++\c++\include\member.h
+
+1598705146 source:e:\github\c++\c++\src\member.cpp
+	<iostream>
+	"member.h"
+
+1598884071 e:\github\c++\c++\include\birthday.h
+
+1598884976 e:\github\c++\c++\include\person.h
 	<string>
+	"birthday.h"
+
+1598884977 source:e:\github\c++\c++\src\birthday.cpp
+	"birthday.h"
+	<iostream>
+
+1598885482 source:e:\github\c++\c++\src\person.cpp
+	"person.h"
+	<iostream>
+	"birthday.h"
+
+1599057283 source:e:\github\c++\c++\src\miss.cpp
+	<iostream>
+	"miss.h"
+
+1599057285 e:\github\c++\c++\include\miss.h
+
+1599143465 source:e:\github\c++\c++\src\opra.cpp
+	<iostream>
+	"opra.h"
+
+1599143860 e:\github\c++\c++\include\opra.h
+
+1599227124 source:e:\github\c++\c++\src\father.cpp
+	<iostream>
+	"father.h"
+	"son.h"
+
+1599227123 e:\github\c++\c++\include\father.h
+
+1599227173 e:\github\c++\c++\include\son.h
+
+1599227175 source:e:\github\c++\c++\src\son.cpp
+	<iostream>
+	"father.h"
+	"son.h"
+
+1599316733 source:e:\github\c++\c++\src\mother.cpp
+	<iostream>
+	"mother.h"
+	"daughter.h"
+
+1599316804 e:\github\c++\c++\include\mother.h
+
+1599316736 e:\github\c++\c++\include\daughter.h
+
+1599316794 source:e:\github\c++\c++\src\daughter.cpp
+	<iostream>
+	"mother.h"
+	"daughter.h"
+
+1599400151 source:e:\github\c++\c++\src\daught.cpp
+	<iostream>
+	"moth.h"
+	"daught.h"
+
+1599400192 e:\github\c++\c++\include\moth.h
+
+1599400190 e:\github\c++\c++\include\daught.h
+
+1599400156 source:e:\github\c++\c++\src\moth.cpp
+	<iostream>
+	"moth.h"
+	"daught.h"
+
+1600003485 source:e:\github\c++\c++\inputelement.cpp
+	<iostream>
+	<process.h>
 
