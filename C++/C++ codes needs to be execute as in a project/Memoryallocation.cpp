@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <iostream>
 
 using namespace std
@@ -24,3 +25,31 @@ for(int i=0;i<size;i++)    // for loop
 delete arr;  // deleting an existing array.
 return 0;
 }
+=======
+#include <iostream>
+
+using namespace std
+
+int main()
+{
+   int size;  // variable declaration
+   int *arr = new int[size];   // creating an array
+
+  cout<<"Enter the size of the array : ";
+
+  std::cin >> size;    //
+
+  cout<<"\nEnter the element : ";
+for(int i=0;i<size;i++)   // for loop
+      {
+       cin>>arr[i];
+     }
+  cout<<"\nThe elements that you have entered are :";
+for(int i=0;i<size;i++)    // for loop
+   {
+    cout<<arr[i]<<",";
+  }
+delete arr;  // deleting an existing array.
+return 0;
+}
+>>>>>>> 1b8b61bca7541f7805d5cc0673316d661766d41f
